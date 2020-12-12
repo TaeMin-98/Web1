@@ -16,8 +16,10 @@
         font-size:45px;
         text-align: center;
         border-bottom:2px solid gray;
-        color: powderblue;
         }
+h2{
+color:powderblue;
+}
       a{
         color: black; 
         }
