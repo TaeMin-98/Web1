@@ -1,5 +1,11 @@
 <style>
-      ul{
+      body{
+      margin:0;
+      }
+      body{
+      margin:0;
+      }
+     ul{
         border-right:2px solid gray;
         width:100px;
         margin-top:-30px;
