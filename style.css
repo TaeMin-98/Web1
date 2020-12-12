@@ -18,10 +18,10 @@
         border-bottom:2px solid gray;
         }
 h2{
-color:PowderBlue;
+color:#B0E0E6;
 }
       a{
-        color: black; 
+        color: red; 
         }
       #grid{
        display: grid;
