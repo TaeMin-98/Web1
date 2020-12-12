@@ -34,14 +34,15 @@ this.value = 'Night Mode';}">
  <p>Multiple web resources with a common theme and usually a common domain name, make up a website. Websites are stored in computers that are running a web server, which is a program that responds to requests made over the Internet from web browsers running on a user's computer. Website content can be provided by a publisher, or interactively from user-generated content. Websites are provided for a myriad of informative, entertainment, commercial, and governmental reasons.</p>
     </div>
       </div>
-          <input type="button" value="Night Mode" onclick="
+  <input type="button" value="Night Mode" onclick="
+var target = document.querySelector('body')
 if(this.value === 'Night Mode'){
-document.querySelector('body').style.backgroundColor = 'black';
-document.querySelector('body').style.color = 'white';
+target.style.backgroundColor = 'black';
+target.style.color = 'white';
 this.value = 'Night Mode Off';
 } else{
-document.querySelector('body').style.backgroundColor = 'white';
-document.querySelector('body').style.color = 'black';
+target.style.backgroundColor = 'white';
+target.style.color = 'black';
 this.value = 'Night Mode';}">
 </body>
 </html>
