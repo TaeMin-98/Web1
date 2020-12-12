@@ -17,11 +17,11 @@
         text-align: center;
         border-bottom:2px solid gray;
         }
-h2{
-color:#B0E0E6;
-}
+      h2{
+      color:#B0E0E6;
+      }
       a{
-        color: red; 
+        color: black; 
         }
       #grid{
        display: grid;
