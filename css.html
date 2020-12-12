@@ -26,5 +26,15 @@ The name cascading comes from the specified priority scheme to determine which s
 <p>In addition to HTML, other markup languages support the use of CSS including XHTML, plain XML, SVG, and XUL.</p>
         </div>
     </div>
+      <input type="button" value="Night Mode" onclick="
+var target = document.querySelector('body')
+if(this.value === 'Night Mode'){
+target.style.backgroundColor = 'black';
+target.style.color = 'white';
+this.value = 'Night Mode Off';
+} else{
+target.style.backgroundColor = 'white';
+target.style.color = 'black';
+this.value = 'Night Mode';}">
 </body>
 </html>
