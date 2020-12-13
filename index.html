@@ -1,34 +1,30 @@
 <!doctype html>
 <html>
 <script>
+  function linksetColor(color){
+    var alist = document.querySelectorAll('a');
+    var i = 0;
+    while( i < alist.length){
+      alist[i].style.color = 'color';
+      i = i + 1;
+    }
+ }  
     function NightModeSwitch(self){
       var target = document.querySelector('body');
       if(self.value === 'Night Mode'){
-document.querySelector('body').style.backgroundColor = 'black';
-document.querySelector('body').style.color = 'white';
-self.value = 'Night Mode Off';
-
-var alist = document.querySelectorAll('a');
-var i = 0;
-while( i < alist.length){
-  alist[i].style.color = '#B0E0E6';
-  i = i + 1;
-}
-}
-else{
-document.querySelector('body').style.backgroundColor = 'white';
-document.querySelector('body').style.color = 'black';
-self.value = 'Night Mode';
-
-var alist = document.querySelectorAll('a');
-var i = 0;
-while( i < alist.length){
-  alist[i].style.color = '#588c7e';
-  i = i + 1;
-  }
- }
-}
-  </script>
+          document.querySelector('body').style.backgroundColor = 'black';
+          document.querySelector('body').style.color = 'white';
+          self.value = 'Night Mode Off';
+          linksetColor('green');
+      }
+      else{
+          document.querySelector('body').style.backgroundColor = 'white';
+          document.querySelector('body').style.color = 'black';
+          self.value = 'Night Mode';
+          linksetColor('red');
+      }
+    }
+</script>
     
 <head>
     <title>WEB1 - WEB</title>
