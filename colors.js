@@ -1,4 +1,4 @@
-<script>
+
     var Links = {
       setColor:function(color){
         var alist = document.querySelectorAll('a');
@@ -32,4 +32,3 @@
           Links.setColor('#588c7e');
       }
     }
-</script>
