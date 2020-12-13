@@ -18,8 +18,8 @@
         border-bottom:2px solid gray;
         }
       a{
-      color:'#B0E0E6';
-      }
+       color:'#B0E0E6';
+            }
       #grid{
        display: grid;
        grid-template-columns: 200px 1fr;
