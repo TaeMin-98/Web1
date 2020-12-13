@@ -8,6 +8,15 @@
 </head>
 
 <body>
+     <input type="button" value="Night Mode" onclick="
+if(this.value === 'Night Mode'){
+document.querySelector('body').style.backgroundColor = 'black';
+document.querySelector('body').style.color = 'white';
+this.value = 'Night Mode Off';
+} else{
+document.querySelector('body').style.backgroundColor = 'white';
+document.querySelector('body').style.color = 'black';
+this.value = 'Night Mode';}">
     <h1><a href="index.html" style="text-decoration:none">WEB</a></h1>
     <div id="grid">
     <ul>
