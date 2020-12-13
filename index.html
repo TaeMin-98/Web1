@@ -13,10 +13,27 @@ if(this.value === 'Night Mode'){
 document.querySelector('body').style.backgroundColor = 'black';
 document.querySelector('body').style.color = 'white';
 this.value = 'Night Mode Off';
-} else{
+
+var alist = document.querySelectorAll('a');
+var i = 0;
+while( i < alist.length){
+  alist[i].style.color = '#B0E0E6';
+  i = i + 1;
+}
+}
+else{
 document.querySelector('body').style.backgroundColor = 'white';
 document.querySelector('body').style.color = 'black';
-this.value = 'Night Mode';}">
+this.value = 'Night Mode';
+
+var alist = document.querySelectorAll('a');
+var i = 0;
+while( i < alist.length){
+  alist[i].style.color = '#588c7e';
+  i = i + 1;
+}
+}
+">
 
     <h1><a href="index.html" style="text-decoration: none">WEB</a></h1>
       <div id="grid">
@@ -34,15 +51,31 @@ this.value = 'Night Mode';}">
  <p>Multiple web resources with a common theme and usually a common domain name, make up a website. Websites are stored in computers that are running a web server, which is a program that responds to requests made over the Internet from web browsers running on a user's computer. Website content can be provided by a publisher, or interactively from user-generated content. Websites are provided for a myriad of informative, entertainment, commercial, and governmental reasons.</p>
     </div>
       </div>
-  <input type="button" value="Night Mode" onclick="
-var target = document.querySelector('body')
+   <input type="button" value="Night Mode" onclick="
 if(this.value === 'Night Mode'){
-target.style.backgroundColor = 'black';
-target.style.color = 'white';
+document.querySelector('body').style.backgroundColor = 'black';
+document.querySelector('body').style.color = 'white';
 this.value = 'Night Mode Off';
-} else{
-target.style.backgroundColor = 'white';
-target.style.color = 'black';
-this.value = 'Night Mode';}">
+
+var alist = document.querySelectorAll('a');
+var i = 0;
+while( i < alist.length){
+  alist[i].style.color = '#B0E0E6';
+  i = i + 1;
+}
+}
+else{
+document.querySelector('body').style.backgroundColor = 'white';
+document.querySelector('body').style.color = 'black';
+this.value = 'Night Mode';
+
+var alist = document.querySelectorAll('a');
+var i = 0;
+while( i < alist.length){
+  alist[i].style.color = '#588c7e';
+  i = i + 1;
+}
+}
+">
 </body>
 </html>
