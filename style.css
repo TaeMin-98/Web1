@@ -17,9 +17,6 @@
         text-align: center;
         border-bottom:2px solid gray;
         }
-      a{
-        color: #588c7e; 
-        }
       #grid{
        display: grid;
        grid-template-columns: 200px 1fr;
